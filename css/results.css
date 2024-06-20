@@ -1,0 +1,125 @@
+body {
+    background-image: url('../images/fundo\ do\ final.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.reset-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.8em;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reset-button:hover {
+    color: #ff0000;
+    opacity: 1;
+}
+
+.results-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.medal img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.level-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.level-button {
+    background-color: #ee665c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.level-button:hover {
+    background-color: #dd554b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores h2 {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores ol {
+    padding-left: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores li {
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-scores li:hover {
+    background-color: #ffcccc;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.medal-hover {
+    width: 75px;
+    height: auto;
+    display: none;
+}
+
+/* Estilos para os três primeiros colocados */
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color: #cd7f32;  /* Bronze */
+}

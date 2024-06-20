@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/results.css">
+    <script src="../js/results.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <title>Resultados</title>
+</head>
+<body>
+    <div class="results-container">
+        <button id="reset-button" class="reset-button">Resetar Pontuação</button>
+        <button id="home-button" class="level-button">Página Inicial</button>
+        <div class="medal">
+            <img id="medal-image" src="" alt="Medal Image">
+        </div>
+        <div class="score">Sua pontuação: <span id="score"></span></div>
+        <div class="level-buttons">
+            <button class="level-button" data-level="1">Nível 1</button>
+            <button class="level-button" data-level="2">Nível 2</button>
+        </div>
+        <div class="top-scores">
+            <h2>Melhores</h2>
+            <ol id="top-scores-list"></ol>
+        </div>
+    </div>
+    
+</body>
+</html>

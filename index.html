@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script defer src="../js/login.js"></script>
+    <script src="..js/results.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1/tsparticles.min.js"></script>
+    <title>Jogo da Memória | login</title>
+</head>
+<body>
+    <form class="login-form">
+        <div class="login__header">
+            <h1>Aprendendo Brincando</h1>
+        </div>
+
+        <input type="text" placeholder="NOME" class="login__input">
+        <button type="submit" class="login__button" disabled>JOGAR</button>
+
+        <div class="level-buttons">
+            <button type="button" class="level-button" data-level="1">Nível 1</button>
+            <button type="button" class="level-button" data-level="2">Nível 2</button>
+        </div>
+    </form>
+
+    <button class="sobre-button" onclick="window.location.href='sobre.html'">Sobre</button>
+
+    <style>
+        .sobre-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>

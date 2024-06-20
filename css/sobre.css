@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #dce1ff;
+}
+
+header {
+    background-color: #7b5af1;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column; /* Altera para coluna */
+    align-items: center;
+}
+
+.criador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.criador img {
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.criador .descricao {
+    text-align: left;
+    max-width: 350px; /* Aumenta a largura máxima */
+    font-family: Arial, sans-serif;
+}
+
+.valores h2 {
+    color: #ee0a0a;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer button {
+    background-color: #10d3f5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona transição para cor de fundo e transformação */
+}
+
+footer button:hover {
+    background-color: #0ab9d3; /* Altera a cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    color: #333;
+    font-family: Arial, sans-serif;
+    
+}

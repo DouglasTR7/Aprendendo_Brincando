@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game2.css">
+    
+    <script src="../js/game2.js"></script>
+    <script src="../js/desistir.js"></script>
+    
+    <title>Jogo da Memória</title>
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .watermark {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+            opacity: 0.2;
+            pointer-events: none;
+            z-index: -1; 
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/gato.png" alt="Header Image" class="watermark">
+    <main>
+        <header>
+            <span class="player"></span>
+            <span>Tempo: <span class="timer"></span></span>
+            <button id="desistir-btn" class="desistir-btn">Desistir</button>
+        </header>
+    
+        <div id="grid"></div>
+    </main>
+</body>
+</html>
